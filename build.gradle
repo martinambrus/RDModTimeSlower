@@ -13,8 +13,6 @@ sourceSets {
 ext {
     api_version = '0.1.2'
     api_filename = 'rd-api.jar';
-    rd_version = '0.1.1'
-    rd_modded_filename = 'rd-modded.jar'
     mod_jar_filename = 'rd-mod-time-slower.jar'
     lwjgl_version = 'lwjgl-2.9.3'
     lwjgl_filename = "${project.ext.lwjgl_version}.zip"
@@ -42,17 +40,12 @@ task extractLwjgl(type: Copy, dependsOn: [ 'downloadLwjgl' ]) {
     into 'libs'
 }
 
-task downloadRDModded(type: FileDownloader) {
-    sourceUrl = "https://github.com/martinambrus/RDModded/releases/download/${project.ext.rd_version}/rd-custom.jar"
-    target = new File( "libs/${project.ext.rd_modded_filename}" )
-}
-
 task downloadAPI(type: FileDownloader) {
     sourceUrl = "https://github.com/martinambrus/RDApi/releases/download/${project.ext.api_version}/rd-api.jar"
     target = new File( "libs/${project.ext.api_filename}" )
 }
 
-task first_time_run( dependsOn: [ 'downloadRDModded', 'extractLwjgl', 'downloadAPI' ] ) {}
+task first_time_run( dependsOn: [ 'extractLwjgl', 'downloadAPI' ] ) {}
 
 jar {
     archiveFileName = project.ext.mod_jar_filename

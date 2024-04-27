@@ -17,6 +17,12 @@ You'll need to be running [RDModded game version](https://github.com/martinambru
 
 I highly recommend using [MultiMC](https://multimc.org/) for this, since you can easily have a clear install there. It's also very easy to replace the MC client JAR file or locate the *.minecraft* folder with MultiMC.
 
+Building
+--------
+Just run the ***first_time_run*** gradle task and have fun coding :)
+
+Once ready, you can run the ***jar*** gradle task to create your plugin file (a single JAR file found in build/libs).
+
 Additional info
 ---------------
 
