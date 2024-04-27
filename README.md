@@ -1,21 +1,28 @@
 RubyDung Time Slower Mod
 ========================
-Version: 1.0 ( 04/27/2024 )
+Version: 1.0
 
-This is a sample mod for the ***[Bukkit-like modding API](https://github.com/martinambrus/RDApi)*** for ***[RubyDung 2009 Modded](https://github.com/martinambrus/RDModded)*** game project.
+This is a sample mod for the 
+***[RubyDung 2009 Modded](https://github.com/martinambrus/RDModded)*** game project 
+(i.e. the very first _Minecraft_ version), implementing ***[the RDAPI modding API](https://github.com/martinambrus/RDApi)***.
 
-Function
---------
+What it does?
+-------------
+This mod will temporarily slow down time upon pressing the T button 
+(also known as bullet-time).
 
-This mod will temporarily slow time upon pressing the T button (also known as bullet-time).
+![Slowing time while jumping](https://i.ibb.co/wCWwNvr/rubydung-bullet-time.gif "Bullet-Time, RubyDung style!")
 
 Installation
 ------------
 Copy the JAR file from the releases page into your *mods* folder inside *.minecraft* folder.
 
-You'll need to be running [RDModded game version](https://github.com/martinambrus/RDModded) for this mod to be picked up and start working.
+You'll need to be running [RDModded game version](https://github.com/martinambrus/RDModded) 
+for this mod to be picked up and start working.
 
-I highly recommend using [MultiMC](https://multimc.org/) for this, since you can easily have a clear install there. It's also very easy to replace the MC client JAR file or locate the *.minecraft* folder with MultiMC.
+I highly recommend using [MultiMC](https://multimc.org/) for this, since you can easily 
+create a separate pre-release Minecraft instance there and it's very easy to replace the 
+MC client JAR file or locate the *.minecraft* folder with MultiMC.
 
 Building
 --------
