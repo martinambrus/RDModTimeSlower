@@ -11,7 +11,7 @@ What it does?
 This mod will temporarily slow down time upon pressing the T button 
 (also known as bullet-time).
 
-![Slowing time while jumping](https://i.ibb.co/wCWwNvr/rubydung-bullet-time.gif "Bullet-Time, RubyDung style!")
+![Slowing time while jumping](https://i.postimg.cc/9QwNJbRh/rubydung-bullet-time.gif "Bullet-Time, RubyDung style!")
 
 Installation
 ------------
